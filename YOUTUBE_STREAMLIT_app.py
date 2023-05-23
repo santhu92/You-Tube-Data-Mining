@@ -10,7 +10,7 @@ st.write("Please enter Channel Id with comma seperated")
 ytb_channel_id = st.text_input("channel_ids")
 button = st.button("Click to start harvesting")
 if button:
-    subprocess.run([f"{sys.executable}", "C:\\Users\\kisho\\anaconda3\\youtubeapidatacollection1.py"])
+    subprocess.run([f"{sys.executable}", "C:\\Users\\kisho\\anaconda3\\ytb_mng_to_mysql.py"])
     #subprocess.run([f"{sys.executable}", "C:\\Users\\kisho\\anaconda3\\youtube_mongo_to_mysql.py"])
 
 try:
