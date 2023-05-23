@@ -172,4 +172,4 @@ for i in CHIDLIST:
 
 import subprocess
 import sys
-subprocess.run([f"{sys.executable}", "C:\\Users\\kisho\\anaconda3\\youtube_mongo_to_mysql.py"])
+subprocess.run([f"{sys.executable}", "C:\\Users\\kisho\\anaconda3\\ytb_mng_to_mysql.py"])
